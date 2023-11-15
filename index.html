@@ -3,19 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Сучасна пекарня</title>
   </head>
   <body>
     <header>
       <nav>
-        <!-- logo, navbar, button -->
+        <a href="/">
+          <img src="/images/logo.png" alt="Logo" />
+        </a>
         <ul>
-          <li>Наші традиції</li>
-          <li>Шеф-кухарі</li>
-          <li>Формати</li>
-          <li>Контакти</li>
+          <li>
+            <a href="#traditions">Наші традиції</a>
+          </li>
+          <li><a href="#chefs">Шеф-кухарі</a></li>
+          <li><a href="#formats">Формати</a></li>
+          <li><a href="#contacts">Контакти</a></li>
         </ul>
       </nav>
+      <button type="button">Замовити дзвінок</button>
     </header>
     <main>
       <!-- hero -->
@@ -24,7 +30,7 @@
       </section>
 
       <!-- about -->
-      <section>
+      <section id="traditions">
         <ul>
           <li><h2>Великий попит на ринку</h2></li>
           <li><h2>Доступні за бюджетом формати</h2></li>
@@ -42,14 +48,16 @@
             стильний дизайн та висока якість обслуговування!
           </li>
         </ul>
+        <img src="/images/baker-man.jpg" alt="Пекар-чоловік" />
       </section>
 
-      <!-- chef -->
-      <section>
+      <!-- chefs -->
+      <section id="chefs">
         <h2>Наші найкращі шеф-кухарі</h2>
         <ul>
           <li>
             <article>
+              <img src="/images/nastya-chef.jpg" alt="Настя шеф-кухар" />
               <ul>
                 <li><h3>Настя</h3></li>
                 <li>Привіт, я Настя!</li>
@@ -61,6 +69,7 @@
 
           <li>
             <article>
+              <img src="/images/vlad-chef.jpg" alt="Влад шеф-кухар" />
               <ul>
                 <li><h3>Влад</h3></li>
                 <li>Привіт, я Влад!</li>
@@ -76,7 +85,7 @@
       </section>
 
       <!-- formats -->
-      <section>
+      <section id="formats">
         <h2>Формати</h2>
 
         <article><h3 lang="en">Walrus</h3></article>
@@ -90,6 +99,50 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer id="contacts">
+      <nav>
+        <a href="/">
+          <img src="/images/logo.png" alt="Logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="#traditions">Наші традиції</a>
+          </li>
+          <li><a href="#chef">Шеф-кухарі</a></li>
+          <li><a href="#formats">Формати</a></li>
+          <li><a href="#contacts">Контакти</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul>
+          <li><a href="tel:+380960000007">+ 38 (096) 000 00 07</a></li>
+          <li>
+            <a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a>
+          </li>
+          <li>
+            <a href="https://maps.app.goo.gl/mjWwkDeYJMgSfQJa6" target="_blank"
+              >Україна, м. Київ, вул. Січових Стрільців 54</a
+            >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.164054656813!2d30.48865857655763!3d50.456669671593325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637bfe1717%3A0x5370c2254ad1b952!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1700060489660!5m2!1suk!2sua"
+              width="603"
+              height="595"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </li>
+          <li>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Insta</a></li>
+            </ul>
+          </li>
+        </ul>
+        <a href="#">Політика конфіденційності</a>
+        <p>&copy; 2022 Дані захищені</p>
+      </address>
+    </footer>
   </body>
 </html>

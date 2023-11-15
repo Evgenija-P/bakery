@@ -1,0 +1,22 @@
+button {
+  width: 238px;
+  height: 59px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  border: 2px solid #819b57;
+
+  background: #819b57;
+  color: #faf4ea;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+button:hover {
+  border: 2px solid #465929;
+
+  background: transparent;
+  color: #819b57;
+}
